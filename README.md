@@ -8,7 +8,7 @@ Développement d'une todo-list avec Symfony, Vue.js, sqlite et Bootstrap.
 ![Exemple d'une liste de tâche](tasksVue.png)
 ## Installation
 
-#### Installation des dépendance et ajout de la BdD :
+#### Installation des dépendances et ajout de la BdD :
 - Ajouter la ligne : `DATABASE_URL="sqlite:///%kernel.project_dir%/var/data.db"` dans le fichier .env à la racine du projet.
 - Modifier la ligne : `APP_ENV=dev`  en `APP_ENV=prod` dans le fichier .env à la racine du projet.
 - Lancer la commande : `composer install` pour installer les dépendances.
@@ -27,4 +27,4 @@ Développement d'une todo-list avec Symfony, Vue.js, sqlite et Bootstrap.
 
 - `symfony server`
 - `yarn encore dev-server --hot`
-- Url : `localhost:8000`
+- URL : `localhost:8000`
