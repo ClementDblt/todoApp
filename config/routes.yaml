@@ -1,3 +1,7 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+todos:
+    path: /
+    controller: App\Controller\DefaultController::todos
+
+tasks:
+    path: /tasks/{id<\d+>}
+    controller: App\Controller\DefaultController::tasks
