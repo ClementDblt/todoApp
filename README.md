@@ -9,6 +9,7 @@ Développement d'une todo-list avec Symfony, Vue.js, sqlite et Bootstrap.
 ## Installation
 
 #### Installation des dépendances et ajout de la BdD :
+- Décommenter la ligne : `extension=pdo_sqlite` dans `php.ini`
 - Ajouter la ligne : `DATABASE_URL="sqlite:///%kernel.project_dir%/var/data.db"` dans le fichier .env à la racine du projet.
 - Modifier la ligne : `APP_ENV=dev`  en `APP_ENV=prod` dans le fichier .env à la racine du projet.
 - Lancer la commande : `composer install` pour installer les dépendances.
