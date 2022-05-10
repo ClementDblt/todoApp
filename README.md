@@ -1,6 +1,6 @@
 # Todo App
 
-Développement d'une todo-list avec Symfony, Vue.js, sqlite et Bootstrap.  
+Développement d'une todo-list pour un test technique avec Symfony, Vue.js, sqlite et Bootstrap.  
 
 *"Bootstrap a été utilisé dans le but de simplifier la mise en place du design et permettre de se focaliser sur la partie back-end de l'application."*
 
